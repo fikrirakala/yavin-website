@@ -1,0 +1,44 @@
+.xl-text {
+  font-size: 75px;
+}
+
+.header {
+  .decoration-star {
+    top: 80px;
+    left: -200px;
+    width: 500px;
+    opacity: 0.7;
+  }
+
+  .decoration-star-2 {
+    top: 80px;
+    right: -200px;
+    width: 500px;
+    opacity: 0.7;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    margin-top: 0 !important;
+    text-align: center;
+
+    .image-container {
+      margin-top: 30px;
+    }
+
+    .decoration-star {
+      left: -100px;
+      width: 250px;
+    }
+
+    .decoration-star-2 {
+      right: -100px;
+      width: 250px;
+    }
+  }
+
+  .xl-text {
+    font-size: 50px;
+  }
+}
