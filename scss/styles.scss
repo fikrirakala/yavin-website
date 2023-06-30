@@ -18,6 +18,13 @@
   }
 }
 
+.details-1 {
+  .decoration-star {
+    left: -200px;
+    width: 500px;
+  }
+}
+
 @media (max-width: 992px) {
   .header {
     margin-top: 0 !important;
